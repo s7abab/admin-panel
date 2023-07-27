@@ -1,0 +1,17 @@
+.modal {
+  position: fixed;
+  top: 20%;
+  left: 40%;
+  animation: modalAnime 0.5s;
+}
+
+@keyframes modalAnime {
+  0% {
+    transform: scalex(0);
+    transform: scaley(0);
+  }
+  100% {
+    transform: scalex(1);
+    transform: scaley(1);
+  }
+}
